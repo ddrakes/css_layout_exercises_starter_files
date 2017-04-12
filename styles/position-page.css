@@ -1,1 +1,21 @@
+nav {
+	background-color: grey;
+	height: 50px;
+	position: relative;
+}
 
+.cat {
+	border-radius: 50%;
+	border: black;
+	position: absolute;
+}
+
+ul {
+	list-style: none;
+}
+
+.menu {
+	display: inline; 
+	left: 50px;
+	position: relative;
+}

@@ -1,0 +1,46 @@
+body {
+	font-size: 0;
+}
+
+.foo {
+	width: 800px;
+	height: 500px;
+}
+
+.green {
+	width: 50%;
+	height: 200px;
+	background-color: green;
+	display: inline-block;
+}
+
+.blue {
+	background-color: blue;
+	width: 50%;
+	height: 200px;
+	display: inline-block;
+
+}
+
+.grey {
+	background-color: grey;
+	width: 33.33%;
+	height: 300px;
+	display: inline-block;
+
+}
+
+.black {
+	background-color: black;
+	width: 33.33%;
+	height: 300px;
+	display: inline-block;
+
+}
+
+.orange {
+	background-color: orange;
+	width: 33.33%;
+	height: 300px;
+	display: inline-block;
+}
