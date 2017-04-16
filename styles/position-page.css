@@ -1,21 +1,104 @@
+.main-nav {
+	/*background: grey;
+	position: fixed;
+	width: 100%;
+	padding-left: 60px;*/
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
 nav {
+	height: 60px;
 	background-color: grey;
+	position: fixed;
+	width: 100%;
+}
+
+nav .icon {
 	height: 50px;
-	position: relative;
-}
-
-.cat {
+	margin-top: 5px;
+	margin-bottom: 5px;
 	border-radius: 50%;
-	border: black;
-	position: absolute;
+	vertical-align: middle;
+	border: 1px solid black;
 }
 
-ul {
+nav ul {
+	display: inline-block;
 	list-style: none;
 }
 
-.menu {
-	display: inline; 
+nav li {
+	display: inline-block;
+}
+
+nav li::after {
+	content: "|";
+	margin-left: 5px;
+}
+
+/*what is wrong with my hover?*/
+nav a:hover { 
+	color: black;
+}
+
+
+/*.main-nav li {
+	list-style: none;
+	display: inline;
+}*/
+
+/*.icon {
+	border-radius: 50%;
+	border: 1px solid black;
+	position: absolute;
+	width: 50px;
 	left: 50px;
+}*/
+
+/*.background {
+	background-image: "images/outerspace_landscape.jpeg"
+	background: url(../images/outerspace_landscape);
+	background-size: cover;
+}*/
+
+body {
+	background: url(../images/outerspace_landscape) no-repeat;
+	background-size: cover;
+}
+
+main {
+	padding-top: 90px;
+	min-width: 1000px;
+}
+
+.container {
+	border: 10px green dotted;
+	width: 600px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
 	position: relative;
+	margin-top: 150px;
+}
+
+/*.logo {
+	width: 200px;
+	height: 200px;
+}*/
+
+.spacecat {
+	top: -90px;
+	left: -90px;
+	
+}
+
+.spacedog {
+	bottom: -120px;
+	right: -60px;
+}
+
+.spacecat, .spacedog {
+	width: 200px;
+	position: absolute;
 }
